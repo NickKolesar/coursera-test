@@ -1,0 +1,18 @@
+#content div {
+	width: 50%;
+	font-size: 1.2em;
+}
+
+#content div:nth-child(odd) {
+	background: #EEE;
+}
+
+.goodbye {
+	color: red;
+	text-shadow: 1px 1px 1px #DDD
+}
+
+.hello {
+	color: blue;
+	text-shadow: 1px 1px 1px #DDD
+}
