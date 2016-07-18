@@ -27,12 +27,12 @@ h2 {
 
 .content {
   background-color: #e2e2e2;
-  border: 1px solid black;
+  border: 3px solid black;
   font-family: Helvetica;
   color: black;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  margin-bottom:  3%;
+  margin-right: 15px;    
+  margin-left: 15px;    
+  margin-bottom: 15px;    
   height:   30%;
   position: relative; 
  }
@@ -45,13 +45,17 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin: 1.5%;
+  margin: 0%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 /********** Computer devices  **********/
 @media (min-width: 992px) {
   .col-lg-4{
-    width: 29.33%;
+    width: 33.33%;
     float: left;
   }
   
@@ -60,11 +64,12 @@ p {
 /********** Tablet devices  **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6{
-    width: 45.5%;
+    width: 50%;
     float: left;
   }
-  .content3{
-    width: 94%;
+  .col-md-12{
+    width: 100%;
+    float: left;
   }
   
 }
@@ -72,6 +77,6 @@ p {
 /********** Tablet devices  **********/
 @media (max-width: 767px) {
   .content {
-    width: 94%;
+    width: 100%;
   }
 }

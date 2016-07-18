@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/** Header **/
+#header-nav {
+  border-radius: 0;
+	border: 0;
+}
+
+
+.navbar-brand {
+	padding-top: 25px;
+	height: 60px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #111;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+/* Nav dropdown*/
+#nav-list {
+ margin: 0px;
+}
+#nav-list a {
+  color: #EDEDED;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/** End Header **/
+
+
+
+/** Index Page **/
+#page-header {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+
+.content {
+	background-color: #EEEEEE;
+	height: 1000px;
+}
+
+.content h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.0 em;
+}
+/** End Index Page **/
+
+
+/********** Computer devices  **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Tablet devices  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Mobile devices  **********/
+@media (max-width: 767px) {
+
+	/* Color the collapsing menu buttons differently*/
+	.collapsing, .in {
+		background-color: #D7D7D7;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.collapsing, .in li:nth-child(even) {
+		background-color: #E1E1E1;
+	}
+
+}
